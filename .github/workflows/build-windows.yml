@@ -43,7 +43,7 @@ jobs:
         (Get-Item "dist\BinanceFuturesBot.exe").Length / 1MB
     
     - name: 📤 Upload executable
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: BinanceFuturesBot-Windows
         path: dist/BinanceFuturesBot.exe
